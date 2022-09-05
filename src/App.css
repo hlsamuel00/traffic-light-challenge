@@ -1,0 +1,54 @@
+/* Containers */
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+.button-container {
+  margin-top: 1%;
+  align-self: center;
+}
+
+.light-container {
+  width: 11rem;
+  background: black;
+  border-radius: 12.5px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+
+/* Light styling */
+.light {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin: 5% auto;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+.inactive {
+  background: lightgrey;
+}
+
+/* Button Styling */
+.button {
+  margin: 0.75rem auto;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
